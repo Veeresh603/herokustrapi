@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "overview": {
-      "type": "richtext",
-      "required": true
-    },
     "author": {
       "model": "author",
       "via": "course"
@@ -27,6 +23,23 @@
       "type": "component",
       "repeatable": true,
       "component": "lessonlist.lesson"
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

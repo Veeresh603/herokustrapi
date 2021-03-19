@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_overview_overviews",
+  "info": {
+    "name": "overview",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "shortdescrption": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "overview.title"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_overview_titles",
+  "info": {
+    "name": "title",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
