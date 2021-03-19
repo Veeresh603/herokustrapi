@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "Course",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "overview": {
+      "type": "richtext",
+      "required": true
+    },
+    "author": {
+      "model": "author",
+      "via": "course"
+    },
+    "lesson": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lessonlist.lesson"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_lessonlist_lessons",
+  "info": {
+    "name": "lesson",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtopic": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lessonlist.subtopic"
+    },
+    "panel": {
+      "type": "string"
+    }
+  }
+}

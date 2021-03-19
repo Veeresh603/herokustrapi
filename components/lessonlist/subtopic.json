@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_lessonlist_subtopics",
+  "info": {
+    "name": "subtopic",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtopic": {
+      "type": "string"
+    }
+  }
+}
